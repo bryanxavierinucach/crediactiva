@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../js/script.js"></script>
+    <title>Consumos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Consumos</h1>
+        <label for="monto">Monto de la compra:</label>
+        <input type="number" id="monto" placeholder="Monto en $">
+        
+        <label for="interes">Tasa de interés (%):</label>
+        <input type="number" id="interes" placeholder="Tasa de interés anual">
+        
+        <label for="plazo">Cantidad de cuotas:</label>
+        <input type="number" id="plazo" placeholder="Número de meses">
+        
+        <button onclick="calcularConsumo()">Calcular</button>
+        
+        <div id="resultado"></div>
+    </div>
+
+    <button><a href="../index.html">Volver al Inicio</a></button>
+</body>
+</html>

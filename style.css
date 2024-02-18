@@ -1,0 +1,59 @@
+header{
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 12.5rem;
+    
+}
+
+input{
+    font-size: 16px;
+    padding: 10px;
+}
+
+button{
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+}
+
+body input{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 80px;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+}
+.container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label, input {
+    display: block;
+    margin: 25px 0;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
